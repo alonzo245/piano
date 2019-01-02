@@ -2,7 +2,12 @@
   "name": "piano",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "npm": "6.4.1",
+    "node": "v10.13.0"
+  },
   "dependencies": {
+    "express": "^4.16.4",
     "node-sass": "^4.11.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",

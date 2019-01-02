@@ -9,6 +9,16 @@ class App extends Component {
     return (
       <Layout>
         <Piano />
+        <div>
+          <a
+            style={{
+              color: 'black',
+              textDecoration: 'underline'
+            }}
+            href="https://github.com/alonzo245/piano">
+            GitHub Code
+        </a>
+        </div>
       </Layout>
     );
   }
